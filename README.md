@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **CF2 - Descripción y funcionamiento de equipos electrónicos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/839317-CF2-TC_MNTMT_NSMBL_EQPS_ELCTRNCS/](https://sena-externos.github.io/839317-CF2-TC_MNTMT_NSMBL_EQPS_ELCTRNCS/)
 
 #
 
@@ -12,7 +12,7 @@
 
 ### 2. Instalar extención [EsLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-### 3. Asegurarce que el repositorio tiene TODOS los archivos de la [BASE](https://github.com/ECORED-SENA/ECORED-BASE-2021)
+### 3. Asegurarse que el repositorio tiene TODOS los archivos de la [BASE](https://github.com/ECORED-SENA/ECORED-BASE-2021)
 
 ### 4. Revisar que el archivo package.json en la línea ``"ecored-base-pkg": "*.*.*"`` tenga la [última versión](https://www.npmjs.com/package/ecored-base-pkg)
 

@@ -1,19 +1,44 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: traslacion1 3.5s linear infinite
     position: absolute
-    top: 40%
-    right: 50%
+    top: 39%
+    right: 85%
+    width: 90px
+    transform-origin: 255%
+    z-index: 2
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 71%
+    right: 11%
+  &-elipse
+    animation: rotar 4s ease-in infinite alternate
+    position: absolute
+    top: 13%
+    right: 20%
+    width: 70%
+    
+@keyframes traslacion1
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateX(20px)
   100%
-    transform: translateY(0px)
+    transform: translateX(0px)
+
+@keyframes rotar
+  0%
+    transform: rotate(360deg)
+  100%
+    transform: rotate(0)
+
+
+//Colores
+
+.cblanco
+  color: white !important

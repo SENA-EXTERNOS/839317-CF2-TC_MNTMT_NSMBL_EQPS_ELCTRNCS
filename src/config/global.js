@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Descripción y funcionamiento de equipos electrónicos',
+    descripcionCurso:
+      'La descripción y funcionamiento de equipos electrónicos permitirá, a través del estudio de conceptos básicos, realizar la identificación, interpretación y caracterización de equipos electrónicos teniendo en cuenta los diferentes elementos presentes en un plano esquemático, variables eléctricas y electrónicas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-img.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/banner-bg.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/decorativo1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/decorativo2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-elipse'],
+        imagen: require('@/assets/curso/portada/banner-elipse.svg'),
       },
     ],
   },
