@@ -40,6 +40,9 @@
               li
                 i.fas.fa-check
                 | Desarrollo fron-end
+              li
+                i.fas.fa-check
+                | Producción audiovisual
 
       .row.mb-4.mb-md-5
         .col-md-6.mb-4.mb-md-0

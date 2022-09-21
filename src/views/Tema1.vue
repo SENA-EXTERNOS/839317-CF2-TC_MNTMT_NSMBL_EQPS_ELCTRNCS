@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5(style='overflow:hidden')
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.cblanco 1
@@ -289,35 +289,44 @@
     #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4 Herramientas
 
-    p 
+    p Un profesional no solo debe contar con los conocimientos teóricos necesarios para realizar el diagnóstico o mantenimiento de equipos sino también debe contar con las herramientas adecuadas para cada procedimiento. A continuación, se presentan los tipos, características, uso y manejo y orden de trabajo.
 
     ImagenInfografica.color-acento-botones
       template(v-slot:imagen)
         figure
           img(src="@/assets/curso/temas/t1/f26.jpg", alt="", srcset="")
 
-      .tarjeta.color-secundario.p-3(x="20%" y="20%" numero="1")
-        .h5.mb-2 titulo
-        p 
-      .tarjeta.color-secundario.p-3(x="30%" y="20%" numero="2")
-        .h5.mb-2 titulo
-        p 
-      .tarjeta.color-secundario.p-3(x="40%" y="20%" numero="3")
-        .h5.mb-2 titulo
-        p 
-      .tarjeta.color-secundario.p-3(x="50%" y="20%" numero="4")
-        .h5.mb-2 titulo
-        p 
+      .tarjeta.color-secundario.p-3(x="39%" y="40%" numero="1" style='width:90%')
+        .h5.mb-2 Tipos
+        p.cblanco.text-small Las herramientas usadas en el diagnóstico y mantenimiento de equipos se dividen en los siguientes grupos:
+        ol.lista-ol--cuadro
+          li.cblanco.text-small 
+            .lista-ol--cuadro__vineta
+              span a
+            | Montaje y desmontaje: este tipo de herramientas permiten acceder a los elementos internos de cada uno de los componentes del equipo, comúnmente se suelen encontrar: desarmadores, pinzas, alicates, cautín, pistolas de calor, tercera mano con lupa, etc.
+          li.cblanco.text-small 
+            .lista-ol--cuadro__vineta
+              span b
+            | Limpieza: estas herramientas son esenciales para mantener los componentes libres de impurezas, comúnmente se tienen: paño de microfibra, isopos, brochas, alcohol isopropílico, limpia pantallas, limpiador de circuitos, etc.
+          li.cblanco.text-small 
+            .lista-ol--cuadro__vineta
+              span c
+            | Medición: son equipos diseñados para monitorear el comportamiento o estado de los elementos electrónicos existentes en un circuito. Dentro de este tipo de dispositivos se tiene los multímetros, osciloscopios, etc.
+          li.cblanco.text-small 
+            .lista-ol--cuadro__vineta
+              span d
+            | Seguridad: este tipo de herramientas mantienen la integridad del profesional y de los equipos. Dentro de este grupo se tienen: tapabocas, manillas o pulseras antiestáticas, guantes de látex o antiestáticos, etc.
+      .tarjeta.color-secundario.p-3(x="20%" y="70%" numero="2")
+        .h5.mb-2 Características
+        p.cblanco.text-small Conociendo la herramienta a usar en el proceso de diagnóstico o mantenimiento debemos observar las características físicas de la pieza que vamos a intervenir, esto para evitar dañar tanto la herramienta como la pieza.
+      .tarjeta.color-secundario.p-3(x="61%" y="15%" numero="3")
+        .h5.mb-2 Uso y manejo
+        p.cblanco.text-small Con la herramienta adecuada para la intervención de la o las piezas se debe consultar el manual del fabricante para seguir las instrucciones correctas para el procedimiento, esto evita el daño de otras piezas o del equipo.
+      .tarjeta.color-secundario.p-3(x="70%" y="65%" numero="4")
+        .h5.mb-2 Orden de trabajo
+        p.cblanco.text-small Para garantizar un correcto procedimiento se debe tener un orden adecuado de cada una de las herramientas a usar, ordenar de forma secuencial cada uno de los tornillos, piezas y demás para evitar la pérdida o confusión a la hora del montaje. Este tipo de prácticas garantiza la integridad y funcionalidad de todos los elementos de los dispositivos.
 
-
-
-
-
-
-
-
-
-
+    div.mb-5
 
 </template>
 
