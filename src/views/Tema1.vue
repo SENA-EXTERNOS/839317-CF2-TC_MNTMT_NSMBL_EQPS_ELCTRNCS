@@ -101,7 +101,7 @@
     p A continuación, se presentan los tipos, características y especificaciones de los diagramas circuitales.
 
     TabsB.color-acento-botones.mb-4(data-aos='fade-left')
-      .py-4.py-md-5(titulo="Esquemas topográficos" :icono="require('@/assets/curso/temas/t1/f13.svg')")
+      .p-4.p-md-5(titulo="Esquemas topográficos" :icono="require('@/assets/curso/temas/t1/f13.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Esquemas topográficos
@@ -110,7 +110,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/t1/f17.png', alt='imagen relacionada')
-      .py-4.py-md-5(titulo="Esquema unifilar" :icono="require('@/assets/curso/temas/t1/f14.svg')")
+      .p-4.p-md-5(titulo="Esquema unifilar" :icono="require('@/assets/curso/temas/t1/f14.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Esquema unifilar
@@ -118,7 +118,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/t1/f18.png', alt='imagen relacionada')
-      .py-4.py-md-5(titulo="Esquema multifilar" :icono="require('@/assets/curso/temas/t1/f15.svg')")
+      .p-4.p-md-5(titulo="Esquema multifilar" :icono="require('@/assets/curso/temas/t1/f15.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Esquema multifilar
@@ -126,7 +126,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/t1/f19.png', alt='imagen relacionada')
-      .py-4.py-md-5(titulo="Esquema funcional" :icono="require('@/assets/curso/temas/t1/f16.svg')")
+      .p-4.p-md-5(titulo="Esquema funcional" :icono="require('@/assets/curso/temas/t1/f16.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Esquema funcional
@@ -137,30 +137,31 @@
 
     h3 Tipos de software
     
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.mb-4
       .col-md-5
         figure(data-aos='fade-right')
           img(src="@/assets/curso/temas/t1/f21.png", alt="Persona frente a la pantalla de un computador")
       .col-md-7
-        p.bloquetl La utilización de herramientas especializadas para el diseño de planos esquemáticos es de suma importancia hoy por hoy. Gracias a los softwares de diseño asistido por computadora actuales se puede probar cada uno de los diseños realizados sin la necesidad de materializarlos, reduciendo costos por cualquier tipo de fallo u operación. Por este principal motivo debemos familiarizarnos con los programas que se utilizarán en el desarrollo de este componente formativo.
-          br
-          br
-          | A continuación, se presenta de manera general dos 
-          em softwares 
-          | que suelen ser empleados para el diseño de planos esquemáticos:
+        .bloquetl.p-4.p-relative
+          p.mb-0 La utilización de herramientas especializadas para el diseño de planos esquemáticos es de suma importancia hoy por hoy. Gracias a los softwares de diseño asistido por computadora actuales se puede probar cada uno de los diseños realizados sin la necesidad de materializarlos, reduciendo costos por cualquier tipo de fallo u operación. Por este principal motivo debemos familiarizarnos con los programas que se utilizarán en el desarrollo de este componente formativo.
+            br
+            br
+            | A continuación, se presenta de manera general dos 
+            em softwares 
+            | que suelen ser empleados para el diseño de planos esquemáticos:
 
-    TabsA.color-acento-botones.mb-4 
-      .tarjeta.color-secundario--borde.p-4(titulo="Proteus")
-        h4 Proteus
-        p Proteus es un software especializado que permite el diseño de PCB, pruebas de sistemas integrados, por medio de simulaciones y construcción de entornos integrados con IoT. Dando como resultado una herramienta versátil y especializada para el diseño esquemático de circuitos electrónicos.
-      .tarjeta.color-secundario--borde.p-4(titulo="Multisim")
-        h4 Multisim
-        p Es un 
-          em software 
-          | dedicado para la simulación y captura de planos esquemáticos electrónicos. Desarrollado por 
-          em National Instruments 
-          | y basado en el simulador de circuitos 
-          em Berkeley.
+        TabsA.color-acento-botones.mb-4 
+          .tarjeta.color-secundario--borde.p-4(titulo="Proteus")
+            h4 Proteus
+            p Proteus es un software especializado que permite el diseño de PCB, pruebas de sistemas integrados, por medio de simulaciones y construcción de entornos integrados con IoT. Dando como resultado una herramienta versátil y especializada para el diseño esquemático de circuitos electrónicos.
+          .tarjeta.color-secundario--borde.p-4(titulo="Multisim")
+            h4 Multisim
+            p Es un 
+              em software 
+              | dedicado para la simulación y captura de planos esquemáticos electrónicos. Desarrollado por 
+              em National Instruments 
+              | y basado en el simulador de circuitos 
+              em Berkeley.
 
     h3 Simulación de circuitos
 
@@ -169,20 +170,18 @@
       p A continuación, se presenta la definición y características de algunos de ellos.
 
       .col-md-8.mx-auto.mb-4
-        .crd.crd--avatarHorizontal.py-4
-          .row.align-items-center
-            .col-auto
-              figure
-                img.img100(src='@/assets/curso/temas/t1/f22.svg' alt='alt')
-            .col
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/t1/f22.svg' alt='alt' style='width:120px')
+          .tarjeta.tarjeta--gris
+            .p-4
               h5 Circuitos analógicos
               p Este tipo de circuitos se caracterizan por el manejo de señales eléctricas continuas, las cuales cambian con el transcurso del tiempo en valores infinitos o se mantienen fija a lo largo del mismo. Dentro de los elementos más comunes presentes en los circuitos analógicos se tienen: resistencias, capacitores, inductores, diodos, transistores, etc.
-        .crd.crd--avatarHorizontal.py-4
-          .row.align-items-center
-            .col-auto
-              figure
-                img.img100(src='@/assets/curso/temas/t1/f23.svg' alt='alt')
-            .col(style="background: grey;")
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/t1/f23.svg' alt='alt' style='width:120px')
+          .tarjeta.tarjeta--gris
+            .p-4
               h5 Circuitos digitales
               p Este tipo de circuitos controlan señales que solo pueden tener dos estados posibles, ausencia o presencia de tensión o corriente, y se componen de aquellos elementos usados para representar salidas como: lámparas, timbres, motores, etc. Y también aquellos elementos usados para representar entradas como interruptores pulsadores, sensores, entre otros.
 
@@ -203,7 +202,7 @@
           figure(data-aos='fade-right')
             img(src='@/assets/curso/temas/t1/f22.png' alt='motor')
         .col-md-7
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta fcs80")
             div(titulo="Conexión Motor DC")
               p Esta conexión es la más simple, solo se debe conectar los dos pines o cables del motor en una fuente de tensión DC con el nivel sugerido por el fabricante. De acuerdo con la polaridad u orden de conexión el motor girará en un sentido u otro.
             div(titulo="Conexión Tipo estrella")
@@ -225,34 +224,36 @@
     p En física, química e ingeniería, un instrumento de medición es un dispositivo utilizado para comparar magnitudes físicas a través de un proceso de medición. En los tiempos modernos, se han desarrollado varios tipos de instrumentos de medición y se utilizan en laboratorios, entornos industriales y la vida cotidiana.
     p A continuación, se describen los equipos, instrumentos y medidas.
 
-    .tarjeta.tarjeta--azul.p-4.bgslide1(data-aos='fade-left')
+    .tarjeta.p-3.bgslide1(data-aos='fade-left')
       SlyderA(tipo="b")
-        .row.align-items-center
+        .row.align-items-center.justify-content-around
           .col-md-8.mb-4.mb-md-0
             h4 Tipos y variables
             p Dentro del área de trabajo un profesional va a encontrar múltiples dispositivos o señales que se necesitan medir para verificar su funcionalidad. Con esto en mente se procede a identificar el tipo de variable que se va a medir, dentro de las más comunes se tienen: corriente, tensión, resistencia, conductividad, conductancia, inductancia, capacitancia.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/t1/f23.png', alt='Texto que describa la imagen')
-        .row.align-items-center
+        .row.align-items-center.justify-content-around
           .col-md-6.mb-4.mb-md-0
             h4 Unidades de medida
             p Una vez se ha identificado el tipo de variable, se procede a seleccionar el equipo idóneo de acuerdo con su unidad de medida y magnitud o variable a medir, acto seguido se debe corroborar el tipo de corriente con la cual funciona el equipo o circuito, es decir, se debe observar en el manual del fabricante si el tipo de corriente es continua o alterna.
-          .col-md-6
+          .col-md-5
             img(src='@/assets/curso/temas/t1/tablaSlide.svg')
             
-        .row.align-items-center
+        .row.align-items-center.justify-content-around
           .col-md-8.mb-4.mb-md-0
             h4 Rangos y calibración
             p Antes de proceder a medir las variables en los equipos es necesario garantizar las óptimas condiciones de los dispositivos, para esto, se debe definir los rangos y la calibración:
             ol.lista-ol--cuadro
-              li 
+              li.text-small 
                 .lista-ol--cuadro__vineta
-                  span i.fas.fa-angle-right.cblanco
+                  span.cblanco
+                    i.fas.fa-angle-right
                 | Rangos: este tipo de información proporciona el margen en el cual un equipo es capaz de medir de forma correcta una variable. Revisar el manual de usuario para verificar los rangos de medición de los equipos y los dispositivos a examinar es de suma importancia para evitar daños o accidentes a la hora de realizar cualquier procedimiento.
-              li 
+              li.text-small 
                 .lista-ol--cuadro__vineta
-                  span i.fas.fa-angle-right.cblanco
+                  span.cblanco
+                    i.fas.fa-angle-right
                 | Calibración: finalmente, es de suma importancia garantizar que los equipos se encuentren correctamente calibrados, esto para obtener valores precisos y confiables. Cada uno de los dispositivos de medición tiene una forma correcta de calibrarse; toda esta información se debe buscar en el manual de usuario y seguir las instrucciones al pie de la letra, de esta manera se garantiza un procedimiento adecuado y precisión en los resultados de las medidas.
           .col-md-4
             figure
@@ -271,7 +272,7 @@
           figure(data-aos='fade-right')
             img(src='@/assets/curso/temas/t1/f25.png' alt='motor')
         .col-md-7
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta fcs80")
             div(titulo="Tipos")
               p Los circuitos electrónicos se dividen en dos grupos. El primer grupo son aquellos circuitos que manejan señales analógicas, aquellas cuyo valor de tensión o corriente varía en el tiempo o bien se mantiene constante. El segundo grupo son los circuitos digitales y son aquellos en donde sus tensiones o corrientes solo pueden poseer dos valores.
             div(titulo="Inspección visual y fallas")

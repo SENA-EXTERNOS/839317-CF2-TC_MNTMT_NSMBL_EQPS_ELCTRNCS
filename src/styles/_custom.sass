@@ -43,6 +43,16 @@
   color: white !important
 .fcblanco
   background-color: white !important
+.fcac10, .tabs-b__tab
+  background-color: rgba(255,202,121,.1) !important
+.fcs, .pasos-a__circle
+  background-color: $color-secundario !important
+.fcs20, .tabs-b__content-item, .fcs80.acordion__activo
+  background-color: rgba(126,137,190,.2) !important
+.fcs80
+  background-color: rgba(126,137,190,.8) !important
+.tabs-b__tab--active
+  background-color: white !important
 
 .tablainside
   th, td
@@ -50,3 +60,68 @@
     width: 70px !important
   h4, p
     margin-bottom: 0 !important
+
+// Backgrounds
+
+.bg1
+  background: url('../assets/curso/temas/bg1.svg') no-repeat center center
+  margin: -3rem
+  padding: 3rem
+
+.bg2
+  background: url('../assets/curso/temas/bg_1.svg') no-repeat center center
+  margin: -3rem
+  padding: 3rem
+
+.bg3
+  background: url('../assets/curso/temas/bg2.svg') no-repeat center top
+  margin: 0 -3rem
+  padding: 3rem
+
+.bg4
+  background: url('../assets/curso/temas/bg4.svg') no-repeat center top
+  margin: 0 -3rem
+  padding: 3rem
+
+.bg5
+  background: url('../assets/curso/temas/bg3.svg') no-repeat center center
+  margin: -3rem
+  padding: 3rem
+
+.bgslide1
+  background-image: url('../assets/curso/temas/bg_slider_1.svg')
+  background-position: bottom center
+  background-size: cover
+  background-repeat: no-repeat
+
+.bgslide2
+  background-image: url('../assets/curso/temas/bg_slider_2.svg')
+  background-position: bottom center
+  background-size: cover
+  background-repeat: no-repeat
+
+.tabs-b__content-item
+  background-image: url('../assets/curso/temas/bg_tabs_left.svg')
+  background-size: 681px
+  background-position: left center
+  background-repeat: no-repeat
+
+//Otros
+
+.p-relative
+  position: relative
+
+.bloquetl
+  &::before
+    display: block
+    content: ''
+    position: absolute
+    width: 40%
+    height: 33%
+    background-color: rgba(147, 234, 194, .5) !important
+    top: 0
+    left: 0
+    mix-blend-mode: multiply 
+
+.text-left
+  text-align: left !important

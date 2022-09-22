@@ -21,7 +21,7 @@
 
     p Conocer la definición de las principales variables y principios en los circuitos electrónicos es de suma importancia para la caracterización de las piezas o elementos a intervenir.
 
-    PasosA.color-secundario.mb-5(tipo="n")
+    PasosA.color-acento-contenido.mb-5(tipo="n")
       .row.align-items-center.justify-content-center
         .col-md-7.order-sm-last.order-md-first
           h4 Corriente
@@ -124,7 +124,7 @@
             em Coulomb
           p La ley de Coulomb establece que la fuerza eléctrica de atracción o repulsión entre dos cargas en reposo es directamente proporcional al producto de las cargas y a la constante de Coulomb e inversamente proporcional a la distancia de separación al cuadrado. En otras palabras la intensidad de las líneas electrostáticas de fuerza es inversamente proporcional al cuadrado de la distancia entre las cargas (Mileaf, H., 2002).
           figure
-            img(src="@/assets/curso/temas/t2/coulomb.jpg", alt="imagen relacionada", width="120px")
+            img(src="@/assets/curso/temas/t2/coulomb.jpg", alt="imagen relacionada", style='width:120px !important')
           p Donde:
           p K=Constante de Coulomb 
           p Q1=Carga 1
@@ -138,16 +138,16 @@
         .col-md-5(data-aos='fade-left')
           figure
             img(src="@/assets/curso/temas/t2/f13.png", alt="imagen relacionada")
-        .col-md-7
+        .col-md-7.text-left
           h4 Ley de 
             em Faraday
           p La ley de Faraday establece la relación que existe entre un campo magnético variante de una superficie y el campo eléctrico producido por estas variaciones. La ley de Faraday establece:
           figure
-            img(src="@/assets/curso/temas/t2/faraday1.jpg", alt="imagen relacionada", width="120px")
+            img(src="@/assets/curso/temas/t2/faraday1.jpg", alt="imagen relacionada", style='width:120px !important')
           p Donde:
           p E=Fuerza electromotriz.
-          p 
-            img(src="@/assets/curso/temas/t2/faraday2.jpg", alt="", width="60px") 
+          p.d-inline 
+            img.text-left(src="@/assets/curso/temas/t2/faraday2.jpg", alt="", style='width:60px !important') 
             | = A la razón de cambio del flujo magnético.
       .row.align-items-center.justify-content-center
         .col-md-7.order-sm-last.order-md-first
@@ -165,34 +165,34 @@
     p Gestionar en documentos todos los procedimientos realizados a un equipo permite agendar todos los mantenimientos preventivos y correctivos futuros, consolida un historial de intervenciones que pueden guiar a futuros procedimientos con características similares a pasadas revisiones.
 
     .bg5
-      .row.justify-content-around.align-items-center
+      .row.justify-content-around.align-items-center.mb-3
         .col-md-7
           h3 Gestión de documentación
           p Gestionar en documentos todos los procedimientos realizados a un equipo permite agendar todos los mantenimientos preventivos y correctivos futuros, consolida un historial de intervenciones que pueden guiar a futuros procedimientos con características similares a pasadas revisiones.
         .col-md-5.order-sm-first.order-md-last
           figure
             img(src="@/assets/curso/temas/t2/f15.svg", alt="imagen relacionada")
-      .row.justify-content-around.align-items-center
+      .row.justify-content-around.align-items-center.mb-3
         .col-md-2
           figure
             img(src="@/assets/curso/temas/t2/f16.svg", alt="imagen relacionada")
-        .col-md-7.tarjeta.tarjeta--gris
+        .col-md-8.tarjeta.tarjeta--gris
           .p-4
             h5 Protocolo de pruebas 
             p Para realizarlas pruebas de cada uno de los equipos a intervenir se debe seguir las recomendaciones brindadas por el manual de usuario del fabricante y de las normas asociadas al tipo de dispositivo que se esté manipulando.
-      .row.justify-content-around.align-items-center
-        .col-md-7.tarjeta.tarjeta--gris
+      .row.justify-content-around.align-items-center.mb-3
+        .col-md-8.tarjeta.tarjeta--gris
           .p-4
             h5 Registro y reporte de resultados 
             p Con las pruebas realizadas se debe generar una bitácora de cada uno de los procedimientos realizados junto con sus respectivos resultados. Este paso garantiza un historial de los procedimientos hechos a los equipos y puede ayudar en caso de accidentes a determinar las causas de este, servir de guía en futuras intervenciones y tener control sobre los materiales o equipos usados en cada uno de los diagnósticos.
         .col-md-2
           figure
             img(src="@/assets/curso/temas/t2/f17.svg", alt="imagen relacionada")
-      .row.justify-content-around.align-items-center
+      .row.justify-content-around.align-items-center.mb-3
         .col-md-2
           figure
             img(src="@/assets/curso/temas/t2/f18.svg", alt="imagen relacionada")
-        .col-md-7.tarjeta.tarjeta--gris
+        .col-md-8.tarjeta.tarjeta--gris
           .p-4
             h5 Normas técnicas
             p Con el fin de mantenerla integridad y la funcionalidad de los equipos se debe caracterizar cada uno de los dispositivos electrónicos para saber qué tipo de requerimientos se deben seguir.

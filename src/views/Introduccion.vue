@@ -11,9 +11,10 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-7
-        p 
-        p 
-      .col-md-5
+        p Apreciado aprendiz, sea bienvenido a este momento de aprendizaje orientado a la descripción y funcionamiento de equipos electrónicos. La descripción de planos esquemáticos y la interpretación de los componentes y variables asociadas a un equipo electrónico resulta de gran importancia a la hora de establecer las pruebas o procedimientos a realizar a futuro. Esto pues, son las responsables de establecer qué tipo de herramientas, técnicas o rangos se deben tener en cuenta en cada una de las fases del mantenimiento y reparación de equipos electrónicos.
+        p Antes de empezar, se sugiere revisar el siguiente video donde podrá identificar el contexto de aprendizaje.
+
+      .col-md-5(data-aos='fade-left')
         figure
           img(src="@/assets/curso/temas/f1.svg", alt="imagen relacionada")
 
