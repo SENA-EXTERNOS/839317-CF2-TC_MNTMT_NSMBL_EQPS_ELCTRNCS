@@ -171,7 +171,7 @@ export default {
       referencia:
         'Martínez, J. F. M. M. J. C. R. (2022). <em>Corriente Alterna Nonofasica Y Trifasica. Fundamentos De Electrotecnia Para Ingenieros.</em> Alfaomega Grupo Editor.',
       tipo: 'Libro',
-      descarga:
+      link:
         'https://www.alphaeditorialcloud.com/library/publication/corriente-alterna-monofasica-y-trifasica',
     },
   ],

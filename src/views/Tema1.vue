@@ -226,22 +226,22 @@
 
     .tarjeta.p-3.bgslide1(data-aos='fade-left')
       SlyderA(tipo="b")
-        .row.align-items-center.justify-content-around
-          .col-md-8.mb-4.mb-md-0
+        .row.align-items-center.justify-content-between
+          .col-md-7.mb-4.mb-md-0
             h4 Tipos y variables
             p Dentro del área de trabajo un profesional va a encontrar múltiples dispositivos o señales que se necesitan medir para verificar su funcionalidad. Con esto en mente se procede a identificar el tipo de variable que se va a medir, dentro de las más comunes se tienen: corriente, tensión, resistencia, conductividad, conductancia, inductancia, capacitancia.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/t1/f23.png', alt='Texto que describa la imagen')
-        .row.align-items-center.justify-content-around
-          .col-md-6.mb-4.mb-md-0
+        .row.align-items-center.justify-content-between
+          .col-md-7.mb-4.mb-md-0
             h4 Unidades de medida
             p Una vez se ha identificado el tipo de variable, se procede a seleccionar el equipo idóneo de acuerdo con su unidad de medida y magnitud o variable a medir, acto seguido se debe corroborar el tipo de corriente con la cual funciona el equipo o circuito, es decir, se debe observar en el manual del fabricante si el tipo de corriente es continua o alterna.
           .col-md-5
             img(src='@/assets/curso/temas/t1/tablaSlide.svg')
             
-        .row.align-items-center.justify-content-around
-          .col-md-8.mb-4.mb-md-0
+        .row.align-items-center.justify-content-between
+          .col-md-7.mb-4.mb-md-0
             h4 Rangos y calibración
             p Antes de proceder a medir las variables en los equipos es necesario garantizar las óptimas condiciones de los dispositivos, para esto, se debe definir los rangos y la calibración:
             ol.lista-ol--cuadro

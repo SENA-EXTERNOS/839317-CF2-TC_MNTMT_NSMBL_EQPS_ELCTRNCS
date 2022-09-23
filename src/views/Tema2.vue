@@ -100,20 +100,20 @@
         .col-md-5(data-aos='fade-left')
           figure
             img(src="@/assets/curso/temas/t2/f11.png", alt="imagen relacionada")
-        .col-md-7
+        .col-md-7.text-left
           h4 Ley de 
             em Kirchoff
           p Esta ley establece el comportamiento que tiene la corriente y el voltaje en los nodos y mallas de un circuito:
           ol.lista-ol--cuadro
-            li.cblanco.text-small 
+            li.text-small 
               .lista-ol--cuadro__vineta
-                span a
+                span.cblanco a
               | Ley de corriente de Kirchhoff.
               br 
               | Esta ley establece que la sumatoria de corrientes entrantes a un nodo debe ser igual a la sumatoria de corrientes salientes del mismo nodo. 
-            li.cblanco.text-small 
+            li.text-small 
               .lista-ol--cuadro__vineta
-                span b
+                span.cblanco b
               | Ley de voltaje de Kirchhoff.
               br
               | Esta ley establece que la sumatoria de voltajes en una trayectoria cerrada o malla de un circuito debe ser igual a cero
@@ -248,37 +248,37 @@
 
     .tarjeta.tarjeta--azul.p-4.bgslide1(data-aos='fade-left')
       SlyderA(tipo="b")
-        .row.align-items-center
-          .col-md-8.mb-4.mb-md-0
-            h4 Tipos de equipos.
+        .row.align-items-center.justify-content-between
+          .col-md-7.mb-4.mb-md-0
+            h4 Tipos de equipos
             p Los equipos de protección personal (EPP) tienen la función de proteger al usuario de accidentes o riesgos para la salud. De acuerdo con el área de protección los EPP se dividen en los siguientes grupos: protecciones oculares, cabeza y cuello, oídos, manos y brazos, pies y piernas, pulmones, cuerpo.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/t2/f23.png', alt='Texto que describa la imagen')
-        .row.align-items-center
-          .col-md-8.mb-4.mb-md-0
+        .row.align-items-center.justify-content-between
+          .col-md-7.mb-4.mb-md-0
             h4 Tipos de elementos
             p De acuerdo con el tipo de equipos de protección personal, se tiene una amplia gama de elementos que cumplen con su respectivo objetivo, los cuales se deben seleccionar dependiendo de la actividad a desarrollar. Dentro del área de mantenimiento de equipos electrónicos se tienen comúnmente los siguientes elementos: guantes antiestáticos, pulseras antiestáticas, tapabocas, botas aislantes, gafas de protección, casco y overol.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/t2/f24.png', alt='Texto que describa la imagen')
-        .row.align-items-center
-          .col-md-8.mb-4.mb-md-0
+        .row.align-items-center.justify-content-between
+          .col-md-7.mb-4.mb-md-0
             h4 Herramientas
             p Cada una de las herramientas que se van a usar dentro del laboratorio o área laboral tienen unos manuales de uso lo cuales se deben seguir para evitar los malos resultados o los accidentes. Además, se debe seguir algunas recomendaciones antes de manipular cada uno de los equipo y herramientas: realizar una inspección visual para verificar el estado de las herramientas, realizar pruebas de control para verificar la calidad de las mediciones, no manipular ningún elemento si ha consumido alguna clase de bebida alcohólica, droga o medicamentos con fuertes reacciones, no usar prendas mojadas, siempre estar bajo la supervisión del personal más calificado para la intervención a realizar.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/t2/f25.png', alt='Texto que describa la imagen')
-        .row.align-items-center
-          .col-md-8.mb-4.mb-md-0
+        .row.align-items-center.justify-content-between
+          .col-md-7.mb-4.mb-md-0
             h4 Riesgo eléctrico
             p El riesgo eléctrico es uno de los accidentes laborales más comunes en la manipulación de equipos electrónicos, se produce en ocasiones como resultado de la estática, pero también es producto del contacto de una extremidad con conductores o conexiones de circuitos electrónicos. Dependiendo de la magnitud y naturaleza de la corriente y voltaje puede ocasionar lesiones o incluso la muerte. 
             p Se debe señalizar en todo momento con letreros o con cualquier tipo de advertencia aquellos componentes propensos a provocar descargar eléctricas para evitar accidentes laborales.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/t2/f26.png', alt='Texto que describa la imagen')
-        .row.align-items-center
-          .col-md-8.mb-4.mb-md-0
+        .row.align-items-center.justify-content-between
+          .col-md-7.mb-4.mb-md-0
             h4 Puesto de trabajo
             p Es importante la identificación de riesgos laborales en el área de trabajo para señalizarlos y mantener un orden adecuado de cada una de las piezas que estén en el proceso de diagnóstico en conjunto con las herramientas y equipos evitan lesiones personales.
           .col-md-4
