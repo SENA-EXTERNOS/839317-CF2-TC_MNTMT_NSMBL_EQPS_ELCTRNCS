@@ -48,9 +48,9 @@
 .fcs, .pasos-a__circle
   background-color: $color-secundario !important
 .fcs20, .tabs-b__content-item, .fcs80.acordion__activo
-  background-color: rgba(126,137,190,.2) !important
+  background-color: rgba(41,57,138,.2) !important
 .fcs80
-  background-color: rgba(126,137,190,.8) !important
+  background-color: rgba(41,57,138,.8) !important
 .tabs-b__tab--active
   background-color: white !important
 
@@ -60,6 +60,9 @@
     width: 70px !important
   h4, p
     margin-bottom: 0 !important
+
+.pasos-b__header__item__dot, .pasos-b__header__item__tittle
+  color: white !important
 
 // Backgrounds
 
@@ -85,8 +88,9 @@
 
 .bg5
   background: url('../assets/curso/temas/bg3.svg') no-repeat center center
-  margin: -3rem
-  padding: 3rem
+  margin: 0 -3rem
+  padding: 0 3rem
+  background-size: cover
 
 .bgslide1
   background-image: url('../assets/curso/temas/bg_slider_1.svg')
@@ -104,6 +108,33 @@
   background-image: url('../assets/curso/temas/bg_tabs_left.svg')
   background-size: 681px
   background-position: left center
+  background-repeat: no-repeat
+
+.slyder-f__main
+  .tarjeta
+    background-image: url('../assets/curso/temas/bg_tj_bottom.svg')
+    background-position: bottom center
+    background-repeat: no-repeat
+
+.tabs-a__content-item--active
+  .tarjeta
+    background-image: url('../assets/curso/temas/bg_tj_a_right.svg')
+    background-position: center right
+    background-repeat: no-repeat
+    &.color-secundario--borde
+      border-color: #138af8 !important
+      background-color: #e5e7f2 !important
+
+.tarjeta.fcp20
+  background-image: url('../assets/curso/temas/bg_tj_right.svg')
+  background-position: center right
+  background-repeat: no-repeat
+  background-size: 80%
+  background-color: #e5e7f2 !important
+
+.tarjeta.fcs80
+  background-image: url('../assets/curso/temas/bg_tj_right.svg')
+  background-position: center right
   background-repeat: no-repeat
 
 //Otros

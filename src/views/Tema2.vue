@@ -211,9 +211,9 @@
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Protocolo de pruebas
 
-    p Una de las funciones del personal de mantenimiento es evitar que las fallas se presenten o se prolonguen por demasiado tiempo, generando gastos operacionales adicionales a los previstos. Es por esto, por lo que se debe realizar un procedimiento adecuado para la localización de la o las fallas existentes en los equipos electrónicos.
+    p.mb-5 Una de las funciones del personal de mantenimiento es evitar que las fallas se presenten o se prolonguen por demasiado tiempo, generando gastos operacionales adicionales a los previstos. Es por esto, por lo que se debe realizar un procedimiento adecuado para la localización de la o las fallas existentes en los equipos electrónicos.
 
-    .tarjeta.tarjeta--gris.p-4.bgslide2
+    .tarjeta.tarjeta--gris.p-4.bgslide2.mb-5
       PasosB.color-primario
         .row.justify-content-between(titulo="A")
           .col-md-4

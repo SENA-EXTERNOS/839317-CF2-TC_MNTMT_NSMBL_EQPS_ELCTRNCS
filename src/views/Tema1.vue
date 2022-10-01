@@ -19,7 +19,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Planos esquemáticos
 
-    .row.justify-content-end.align-items-center.mb-4
+    .row.justify-content-end.align-items-center.mb-5
       .col-md-6
         .tarjeta.tarjeta--gris(style='padding-right: 30%;margin-right:-30%')
           .p-4
@@ -100,9 +100,9 @@
     p Además de poder identificar de forma correcta los elementos presentes en los planos esquemáticos, es importante conocer los tipos y características de los diferentes diagramas circuitales; información que será de utilidad a la hora de diseñar estos diagramas, caracterizarlos o interpretarlos.
     p A continuación, se presentan los tipos, características y especificaciones de los diagramas circuitales.
 
-    TabsB.color-acento-botones.mb-4(data-aos='fade-left')
+    TabsB.color-acento-botones.mb-5(data-aos='fade-left')
       .p-4.p-md-5(titulo="Esquemas topográficos" :icono="require('@/assets/curso/temas/t1/f13.svg')")
-        .row
+        .row.align-items-center.justify-content-center
           .col-md-6.mb-4.mb-md-0
             h4 Esquemas topográficos
             p Este tipo de esquemático se caracteriza por realizar un diagrama circuital, teniendo en cuenta el lugar en donde se realizará la instalación de los elementos. 
@@ -111,7 +111,7 @@
             figure
               img(src='@/assets/curso/temas/t1/f17.png', alt='imagen relacionada')
       .p-4.p-md-5(titulo="Esquema unifilar" :icono="require('@/assets/curso/temas/t1/f14.svg')")
-        .row
+        .row.align-items-center.justify-content-center
           .col-md-6.mb-4.mb-md-0
             h4 Esquema unifilar
             p Este tipo de esquemático es más complejo de entender debido a su representación simplificada de los planos electrónicos, se caracteriza por incluir todos los conductores de un mismo tramo. De esta manera su simplicidad gráfica y complejidad de entendimiento aumentan.
@@ -119,7 +119,7 @@
             figure
               img(src='@/assets/curso/temas/t1/f18.png', alt='imagen relacionada')
       .p-4.p-md-5(titulo="Esquema multifilar" :icono="require('@/assets/curso/temas/t1/f15.svg')")
-        .row
+        .row.align-items-center.justify-content-center
           .col-md-6.mb-4.mb-md-0
             h4 Esquema multifilar
             p A diferencia del esquema unifilar, el esquema multifilar tiene complejidad en su representación debido a su exactitud, en consecuencia, su comprensión es más elevada.
@@ -127,7 +127,7 @@
             figure
               img(src='@/assets/curso/temas/t1/f19.png', alt='imagen relacionada')
       .p-4.p-md-5(titulo="Esquema funcional" :icono="require('@/assets/curso/temas/t1/f16.svg')")
-        .row
+        .row.align-items-center.justify-content-center
           .col-md-6.mb-4.mb-md-0
             h4 Esquema funcional
             p Este tipo de gráfico es una representación abreviada del esquema unifilar, lo que permite una visualización y comprensión más fácil del diagrama esquemático, por ende, es una de las representaciones más usadas.
@@ -169,18 +169,18 @@
       p Dentro de la comprobación de los diseños o planos esquemáticos de los circuitos electrónicos se pueden encontrar dos grandes grupos: circuitos analógicos y circuitos digitales.
       p A continuación, se presenta la definición y características de algunos de ellos.
 
-      .col-md-8.mx-auto.mb-4
+      .col-md-8.mx-auto.mb-5
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t1/f22.svg' alt='alt' style='width:120px')
-          .tarjeta.tarjeta--gris
+          .tarjeta.fcp20
             .p-4
               h5 Circuitos analógicos
               p Este tipo de circuitos se caracterizan por el manejo de señales eléctricas continuas, las cuales cambian con el transcurso del tiempo en valores infinitos o se mantienen fija a lo largo del mismo. Dentro de los elementos más comunes presentes en los circuitos analógicos se tienen: resistencias, capacitores, inductores, diodos, transistores, etc.
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t1/f23.svg' alt='alt' style='width:120px')
-          .tarjeta.tarjeta--gris
+          .tarjeta.fcp20
             .p-4
               h5 Circuitos digitales
               p Este tipo de circuitos controlan señales que solo pueden tener dos estados posibles, ausencia o presencia de tensión o corriente, y se componen de aquellos elementos usados para representar salidas como: lámparas, timbres, motores, etc. Y también aquellos elementos usados para representar entradas como interruptores pulsadores, sensores, entre otros.
@@ -188,7 +188,7 @@
     h3 Motores eléctricos
     p Los motores eléctricos son componentes muy frecuentes en el entorno industrial debido a sus múltiples aplicaciones dentro de este entorno. Este principal motivo obliga a profundizar en los conceptos propios de los motores eléctricos, entre ellos su funcionamiento, partes y definición. Más precisamente: “El motor eléctrico es una máquina que puede convertir la electricidad en movimiento rotatorio, con objeto de que efectúe un trabajo útil.” (Mileaf, H. (2002). Electricidad. Limusa. p. 7-1). Para conocer un poco más de ellos, su funcionamiento, características y tipo, lo invitamos a observar con atención el siguiente video.
 
-    figure.mb-4
+    figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
@@ -237,9 +237,8 @@
           .col-md-7.mb-4.mb-md-0
             h4 Unidades de medida
             p Una vez se ha identificado el tipo de variable, se procede a seleccionar el equipo idóneo de acuerdo con su unidad de medida y magnitud o variable a medir, acto seguido se debe corroborar el tipo de corriente con la cual funciona el equipo o circuito, es decir, se debe observar en el manual del fabricante si el tipo de corriente es continua o alterna.
-          .col-md-5
+          .col-md-5.p-4
             img(src='@/assets/curso/temas/t1/tablaSlide.svg')
-            
         .row.align-items-center.justify-content-between
           .col-md-7.mb-4.mb-md-0
             h4 Rangos y calibración
