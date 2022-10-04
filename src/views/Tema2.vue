@@ -17,7 +17,7 @@
     Separador
 
     #t_2_1.titulo-segundo.color-acento-contenido
-      h2 Variables eléctricas y electrónicas
+      h2 2.1 Variables eléctricas y electrónicas
 
     p Conocer la definición de las principales variables y principios en los circuitos electrónicos es de suma importancia para la caracterización de las piezas o elementos a intervenir.
 
@@ -35,7 +35,7 @@
         .col-md-5(data-aos='fade-left')
           figure
             img(src="@/assets/curso/temas/t2/f3.svg", alt="imagen relacionada")
-        .col-md-7
+        .col-md-7.text-left
           h4 Voltaje
           p El voltaje o tensión es la diferencia de potencial eléctrico que existe entre dos puntos de un circuito. Esta variable nos dice que tan difícil es llevar un electrón de un punto determinado a otro. En otras palabras: “La carga eléctrica que adquiere un objeto se llama potencial eléctrico, debido a que los electrones desplazados acumulan energía potencial que se puede utilizar para mover a otros electrones. Puesto que se necesitan dos cargas para completar un circuito, la diferencia de potencial entre estas dos cargas es lo que proporciona la fuerza eléctrica.” (Mileaf, H., 2002). Al igual que en el caso anterior el voltaje se divide en dos grupos. Voltaje continuo, se caracteriza por tener una polaridad fija. Voltaje alterno, se caracteriza por tener una polaridad cambiante en el tiempo.
       .row.align-items-center.justify-content-center
@@ -49,7 +49,7 @@
         .col-md-5(data-aos='fade-left')
           figure
             img(src="@/assets/curso/temas/t2/f5.svg", alt="imagen relacionada")
-        .col-md-7
+        .col-md-7.text-left
           h4 Resistencia
           p La resistencia eléctrica cuantifica el nivel oposición al flujo de corriente eléctrica que tiene un material o elemento; los materiales de baja conductancia se oponen o resisten al flujo de la corriente eléctrica. (Mileaf, H., 2002).
       .row.align-items-center.justify-content-center
@@ -63,11 +63,11 @@
         .col-md-5(data-aos='fade-left')
           figure
             img(src="@/assets/curso/temas/t2/f7.svg", alt="imagen relacionada")
-        .col-md-7
+        .col-md-7.text-left
           h4 Ley de 
             em Ohm
           p La ley de ohm establece la relación que existe entre la tensión, la corriente y la resistencia eléctrica. Es parte fundamental en la interpretación de circuitos electrónicos y se define como:
-          p I = VR
+          img.my-4(src="@/assets/curso/temas/t2/ohm.svg", alt="I = V / R", style="width: 50px;")
           p Donde:
           p I = corriente eléctrica.
           p R = resistencia eléctrica.
@@ -86,7 +86,7 @@
         .col-md-5(data-aos='fade-left')
           figure
             img(src="@/assets/curso/temas/t2/f9.svg", alt="imagen relacionada")
-        .col-md-7
+        .col-md-7.text-left
           h4 Semiconductores
           p Los semiconductores son todos los materiales cuyo estado depende de factores físicos como la temperatura, presión campos magnéticos, etc. Es decir, son todos aquellos materiales que se comportan como aislantes o conductores dependiendo de factores externos. Más precisamente puesto que los conductores tienen sus capas de valencia llenas a menos de la mitad, y los aisladores tienen las suyas llenas a más de, la mitad, las substancias que tienen átomos con cuatro electrones de valencia reciben el nombre de semiconductores. (Mileaf, H., 2002).
       .row.align-items-center.justify-content-center
@@ -146,9 +146,11 @@
             img(src="@/assets/curso/temas/t2/faraday1.jpg", alt="imagen relacionada", style='width:120px !important')
           p Donde:
           p E=Fuerza electromotriz.
-          p.d-inline 
-            img.text-left(src="@/assets/curso/temas/t2/faraday2.jpg", alt="", style='width:60px !important') 
-            | = A la razón de cambio del flujo magnético.
+          .row.align-items-center
+            .col-auto
+              img.text-left(src="@/assets/curso/temas/t2/faraday2.jpg", alt="", style='width:60px !important') 
+            .col
+              p.mb-0 = A la razón de cambio del flujo magnético.
       .row.align-items-center.justify-content-center
         .col-md-7.order-sm-last.order-md-first
           h4 Estática
@@ -214,7 +216,7 @@
     p.mb-5 Una de las funciones del personal de mantenimiento es evitar que las fallas se presenten o se prolonguen por demasiado tiempo, generando gastos operacionales adicionales a los previstos. Es por esto, por lo que se debe realizar un procedimiento adecuado para la localización de la o las fallas existentes en los equipos electrónicos.
 
     .tarjeta.tarjeta--gris.p-4.bgslide2.mb-5
-      PasosB.color-primario
+      LineaTiempoC.color-acento-contenido
         .row.justify-content-between(titulo="A")
           .col-md-4
             figure
@@ -247,7 +249,7 @@
     p Las normativas de seguridad y salud en el trabajo tienen como objetivo establecer reglas, rutas y pautas que se deben seguir dentro de las instalaciones laborales con el fin de evitar o reducir accidentes personales o comprometer la integridad de los equipos.
 
     .tarjeta.tarjeta--azul.p-4.bgslide1(data-aos='fade-left')
-      SlyderA(tipo="b")
+      SlyderA.color-acento-botones(tipo="b")
         .row.align-items-center.justify-content-between
           .col-md-7.mb-4.mb-md-0
             h4 Tipos de equipos

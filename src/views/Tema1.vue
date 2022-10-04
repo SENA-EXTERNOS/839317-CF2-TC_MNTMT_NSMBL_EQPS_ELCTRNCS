@@ -104,7 +104,6 @@
       .p-4.p-md-5(titulo="Esquemas topográficos" :icono="require('@/assets/curso/temas/t1/f13.svg')")
         .row.align-items-center.justify-content-center
           .col-md-6.mb-4.mb-md-0
-            h4 Esquemas topográficos
             p Este tipo de esquemático se caracteriza por realizar un diagrama circuital, teniendo en cuenta el lugar en donde se realizará la instalación de los elementos. 
             p Se caracteriza por dar una sensación de realidad en el espacio disponible para la instalación de los elementos o dispositivos electrónicos.
           .col-md-6
@@ -113,7 +112,6 @@
       .p-4.p-md-5(titulo="Esquema unifilar" :icono="require('@/assets/curso/temas/t1/f14.svg')")
         .row.align-items-center.justify-content-center
           .col-md-6.mb-4.mb-md-0
-            h4 Esquema unifilar
             p Este tipo de esquemático es más complejo de entender debido a su representación simplificada de los planos electrónicos, se caracteriza por incluir todos los conductores de un mismo tramo. De esta manera su simplicidad gráfica y complejidad de entendimiento aumentan.
           .col-md-6
             figure
@@ -121,7 +119,6 @@
       .p-4.p-md-5(titulo="Esquema multifilar" :icono="require('@/assets/curso/temas/t1/f15.svg')")
         .row.align-items-center.justify-content-center
           .col-md-6.mb-4.mb-md-0
-            h4 Esquema multifilar
             p A diferencia del esquema unifilar, el esquema multifilar tiene complejidad en su representación debido a su exactitud, en consecuencia, su comprensión es más elevada.
           .col-md-6
             figure
@@ -129,7 +126,6 @@
       .p-4.p-md-5(titulo="Esquema funcional" :icono="require('@/assets/curso/temas/t1/f16.svg')")
         .row.align-items-center.justify-content-center
           .col-md-6.mb-4.mb-md-0
-            h4 Esquema funcional
             p Este tipo de gráfico es una representación abreviada del esquema unifilar, lo que permite una visualización y comprensión más fácil del diagrama esquemático, por ende, es una de las representaciones más usadas.
           .col-md-6
             figure
@@ -152,10 +148,8 @@
 
         TabsA.color-acento-botones.mb-4 
           .tarjeta.color-secundario--borde.p-4(titulo="Proteus")
-            h4 Proteus
             p Proteus es un software especializado que permite el diseño de PCB, pruebas de sistemas integrados, por medio de simulaciones y construcción de entornos integrados con IoT. Dando como resultado una herramienta versátil y especializada para el diseño esquemático de circuitos electrónicos.
           .tarjeta.color-secundario--borde.p-4(titulo="Multisim")
-            h4 Multisim
             p Es un 
               em software 
               | dedicado para la simulación y captura de planos esquemáticos electrónicos. Desarrollado por 
@@ -225,7 +219,7 @@
     p A continuación, se describen los equipos, instrumentos y medidas.
 
     .tarjeta.p-3.bgslide1(data-aos='fade-left')
-      SlyderA(tipo="b")
+      SlyderA.color-acento-botones(tipo="b")
         .row.align-items-center.justify-content-between
           .col-md-7.mb-4.mb-md-0
             h4 Tipos y variables
@@ -242,18 +236,22 @@
         .row.align-items-center.justify-content-between
           .col-md-7.mb-4.mb-md-0
             h4 Rangos y calibración
-            p Antes de proceder a medir las variables en los equipos es necesario garantizar las óptimas condiciones de los dispositivos, para esto, se debe definir los rangos y la calibración:
+            p.text-small Antes de proceder a medir las variables en los equipos es necesario garantizar las óptimas condiciones de los dispositivos, para esto, se debe definir los rangos y la calibración:
             ol.lista-ol--cuadro
               li.text-small 
                 .lista-ol--cuadro__vineta
                   span.cblanco
                     i.fas.fa-angle-right
-                | Rangos: este tipo de información proporciona el margen en el cual un equipo es capaz de medir de forma correcta una variable. Revisar el manual de usuario para verificar los rangos de medición de los equipos y los dispositivos a examinar es de suma importancia para evitar daños o accidentes a la hora de realizar cualquier procedimiento.
+                p.mb-0 
+                  b Rangos: 
+                  | este tipo de información proporciona el margen en el cual un equipo es capaz de medir de forma correcta una variable. Revisar el manual de usuario para verificar los rangos de medición de los equipos y los dispositivos a examinar es de suma importancia para evitar daños o accidentes a la hora de realizar cualquier procedimiento.
               li.text-small 
                 .lista-ol--cuadro__vineta
                   span.cblanco
                     i.fas.fa-angle-right
-                | Calibración: finalmente, es de suma importancia garantizar que los equipos se encuentren correctamente calibrados, esto para obtener valores precisos y confiables. Cada uno de los dispositivos de medición tiene una forma correcta de calibrarse; toda esta información se debe buscar en el manual de usuario y seguir las instrucciones al pie de la letra, de esta manera se garantiza un procedimiento adecuado y precisión en los resultados de las medidas.
+                p.mb-0 
+                  b Calibración: 
+                  | finalmente, es de suma importancia garantizar que los equipos se encuentren correctamente calibrados, esto para obtener valores precisos y confiables. Cada uno de los dispositivos de medición tiene una forma correcta de calibrarse; toda esta información se debe buscar en el manual de usuario y seguir las instrucciones al pie de la letra, de esta manera se garantiza un procedimiento adecuado y precisión en los resultados de las medidas.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/t1/f24.png', alt='Texto que describa la imagen')
