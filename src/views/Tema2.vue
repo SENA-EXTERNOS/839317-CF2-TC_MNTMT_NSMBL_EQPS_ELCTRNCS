@@ -178,12 +178,12 @@
         .col-md-2
           figure
             img(src="@/assets/curso/temas/t2/f16.svg", alt="imagen relacionada")
-        .col-md-8.tarjeta.tarjeta--gris
+        .col-md-8.tarjeta.fcp20
           .p-4
             h5 Protocolo de pruebas 
             p Para realizarlas pruebas de cada uno de los equipos a intervenir se debe seguir las recomendaciones brindadas por el manual de usuario del fabricante y de las normas asociadas al tipo de dispositivo que se esté manipulando.
       .row.justify-content-around.align-items-center.mb-3
-        .col-md-8.tarjeta.tarjeta--gris
+        .col-md-8.tarjeta.fcp20
           .p-4
             h5 Registro y reporte de resultados 
             p Con las pruebas realizadas se debe generar una bitácora de cada uno de los procedimientos realizados junto con sus respectivos resultados. Este paso garantiza un historial de los procedimientos hechos a los equipos y puede ayudar en caso de accidentes a determinar las causas de este, servir de guía en futuras intervenciones y tener control sobre los materiales o equipos usados en cada uno de los diagnósticos.
@@ -194,7 +194,7 @@
         .col-md-2
           figure
             img(src="@/assets/curso/temas/t2/f18.svg", alt="imagen relacionada")
-        .col-md-8.tarjeta.tarjeta--gris
+        .col-md-8.tarjeta.fcp20
           .p-4
             h5 Normas técnicas
             p Con el fin de mantenerla integridad y la funcionalidad de los equipos se debe caracterizar cada uno de los dispositivos electrónicos para saber qué tipo de requerimientos se deben seguir.
